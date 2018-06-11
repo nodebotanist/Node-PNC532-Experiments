@@ -1,5 +1,5 @@
 var tessel = require('tessel');
-var rfidlib = require('rfid-pn532');
+var rfidlib = require('./rfid-pn532');
 
 var rfid = rfidlib.use(tessel.port['A']); 
 
